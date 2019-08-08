@@ -1,11 +1,11 @@
 def roll_call_dwarves(arr)
   # Your code here
-  arr.each.with_index {| a, i |
-    puts "#{i+1} #{a}" }
+  arr.each.with_index {| a, i | puts "#{i+1} #{a}" }
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(arr)
   # Your code here
+  arr.map { |a| a.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
