@@ -1,5 +1,6 @@
 def roll_call_dwarves(arr)
   # Your code here
+  new = []
   arr.each_with_index {| a, i |
     puts "#{i+1} #{a[i]}" }
 end
