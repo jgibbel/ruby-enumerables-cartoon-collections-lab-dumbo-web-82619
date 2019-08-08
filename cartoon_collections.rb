@@ -16,6 +16,7 @@ end
 def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  arr.include
   n = arr.index(cheese_types[0] || cheese_types[1] || cheese_types[2])
   if !n return nil 
   else return arr[n]
