@@ -8,11 +8,13 @@ def summon_captain_planet(arr)
   arr.map { |a| a.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(arr)
   # Your code here
+  arr.any? { |x| x.length > 4}
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  arr.
 end
