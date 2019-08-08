@@ -16,10 +16,11 @@ end
 def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  arr.each {|item| if cheese_types.include?(item) return item}
+end
+
   if arr.include?(cheese_types)
   n = arr.index(cheese_types)
   return arr[n]
   else return nil 
   end
-  arr.any? {|item| cheese_types.include?(item)}
-end
