@@ -19,4 +19,3 @@ def find_the_cheese(arr)
   n = arr.index(cheese_types[0] || cheese_types[1] || cheese_types[2])
   return arr[n]
 end
-end
