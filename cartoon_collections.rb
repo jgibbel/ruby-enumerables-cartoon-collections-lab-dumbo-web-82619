@@ -19,6 +19,5 @@ def find_the_cheese(arr)
   n = arr.index(cheese_types[0] || cheese_types[1] || cheese_types[2])
   if n 
     return arr[n]
-  else return nil
 end
 end
