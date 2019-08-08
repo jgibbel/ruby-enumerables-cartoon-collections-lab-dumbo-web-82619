@@ -19,8 +19,3 @@ def find_the_cheese(arr)
   arr.each {|item| if cheese_types.include?(item) return item}
 end
 
-  if arr.include?(cheese_types)
-  n = arr.index(cheese_types)
-  return arr[n]
-  else return nil 
-  end
